@@ -82,3 +82,19 @@ nav{
   left: 50%;
   transform: translate(-50%, 0);
 }
+
+/* CONTACT */
+
+.contact{
+  height: 680px;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: #3a546d;
+  height: 340px;
+  color: white;
+  text-align: center;
+}
