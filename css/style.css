@@ -2,18 +2,20 @@
   border: 1px solid black;
 }
 
-.header_top [class*="col-"]{
+nav [class*="col-"]{
   height: 90px;
 }
 
-#button{
-  width: 100px;
-  height: 90px;
+
+.my_button{
   background-color: #1abc9c;
-  line-height: 90px;
+  color: white;
+  border: none;
   text-align: center;
   float: right;
-
+  position: relative;
+  top:50%;
+  transform: translate(0, -50%);
 }
 
 nav{
@@ -21,71 +23,115 @@ nav{
   color: white;
 }
 
-.nav li{
+nav li{
   display: inline-block;
   text-decoration: none;
   float: right;
   line-height: 90px;
   margin: 0 15px;
+  font-size: 2rem;
 }
 
-.logo{
+nav li:hover{
+  color: #1abc9c;
+}
+
+.logo-top{
   line-height: 90px;
+  font-size: 3.5rem;
 }
 
-.hero{
+.jumbotron{
   background-color: #1abc9c;
-  height: 585px;
   text-align: center;
   color: white;
 }
 
-/* PORTFOLIO */
-
-.portfolio{
-  text-align: center;
+.jumbotron img{
+  width: 24rem;
 }
 
-.row .portfolio_bot{
-  height: 100%;
+.line{
+  height: 5px;
+  width: 8vw;
+  margin: 0 15px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.l-white{
+  background-color: white;
+}
+
+.star{
+  font-size: 4rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.star_decoration .white{
+
+}
+
+.jumbotron > div{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+
+
+/* PORTFOLIO */
+
+#portfolio{
+  text-align: center;
+  margin: 50px auto;
+}
+
+#portfolio h2{
+  font-size: 40px;
+}
+
+.l-black{
+  background-color: black;
 }
 
 .item{
+  margin-bottom: 24px;
+}
 
-  margin-left: 36px;
-  margin-right: 36px;
-  margin-top: 48px;
-  margin-bottom: 48px;
-  background-color: red;
-  height: 240px;
-  border-radius: 0.5rem;
+.item img{
+  max-height: 260px;
+  border-radius: 1rem;
 }
 
 
 /* ABOUT */
 
-.about{
- height: 490px;
- background-color: #1abc9c;
- color: white;
-}
-
-.about .top, .about .bot{
+#about{
+  background-color: #1abc9c;
+  color: white;
   text-align: center;
 }
 
-.button{
-  width: 200px;
-  height: 70px;
-  border: 2px solid white;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 0);
+#about .row{
+  text-align: left;
 }
+
+#about h2{
+  margin-top: 50px;
+}
+
+.my-download-button{
+  background-color: #1abc9c;
+  color: white;
+  margin: 50px auto;
+}
+
+/* DA QUI IN POI DA RIVEDERE */
 
 /* CONTACT */
 
-.contact{
+#contact{
   height: 680px;
   text-align: center;
 }
@@ -97,4 +143,27 @@ footer{
   height: 340px;
   color: white;
   text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .logo-top{
+    line-height: 90px;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+  .item img{
+    max-height: 200px;
+    border-radius: 1rem;
+  }
+
 }

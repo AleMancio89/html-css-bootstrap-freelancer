@@ -11,10 +11,10 @@
 
     <header>
       <nav>
-        <div class="container nav">
-          <div class="row header_top">
-            <div class="col-xs-6">
-              <div class="logo">START BOOTSTRAP</div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-offset-1 col-xs-7 col-sm-offset-0 col-sm-7 col-md-6">
+              <div class="logo-top">START BOOTSTRAP</div>
             </div>
             <div class="hidden-xs hidden-sm col-md-6">
               <ul>
@@ -23,69 +23,71 @@
                 <li>PORTFOLIO</li>
               </ul>
             </div>
-            <div class="col-xs-6 hidden-md hidden-lg">
-              <div id="button"> MENU</div>
+            <div class="col-xs-3 col-sm-5 hidden-md hidden-lg">
+              <button type="button" class="my_button btn btn-default btn-lg">
+                MENU <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+              </button>
             </div>
 
           </div>
         </div>
 
       </nav>
-      <div class=" container-fluid hero">
-        <div class="row">
-          <div class="col-md-12">
-            <img src="" alt="LOGO">
+      <div class="jumbotron">
+            <img src="img/avataaars.svg" alt="Avatar">
             <h1> START BOOTSTRAP</h1>
-            <div> LINE STAR LINE </div>
+            <div class"star_decoration">
+              <div class="line l-white"></div>
+              <div class="star">&#9733;</div>
+              <div class="line l-white"></div>
+            </div>
             <p>Graphic Artist - Web Designer - Illustrator</p>
-          </div>
-
-        </div>
-
       </div>
     </header>
 
 
     <main>
-      <section class="portfolio">
+
+    <!-- Portfolio section -->
+      <section id="portfolio">
         <div class="container">
-          <div class="row portfolio_top">
-            <div class="col-xs-12">
-              <h2>PORTFOLIO</h2>
-              <div> LINE STAR LINE </div>
 
-            </div>
-
+          <h2>PORTFOLIO</h2>
+          <div class"star_decoration">
+            <div class="line l-black"></div>
+            <div class="star">&#9733;</div>
+            <div class="line l-black"></div>
           </div>
-          <div class="row portfolio_bot">
-            <div class="col-xs-12 col-sm-6 col-lg-4">
+          <!-- Portfolio grid -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="item">
-                1
+                <img src="img/cabin.png" alt="Cabin">
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="item">
-                2
+                <img src="img/cake.png" alt="Cake">
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="item">
-                3
+                <img src="img/circus.png" alt="Circus">
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="item">
-                4
+                <img src="img/game.png" alt="Game">
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="item">
-                5
+                <img src="img/safe.png" alt="Safe">
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="item">
-                6
+                <img src="img/submarine.png" alt="Submarine">
               </div>
             </div>
 
@@ -94,37 +96,34 @@
         </div>
 
       </section>
-      <section class="about">
+    <!-- About section -->
+      <section id="about">
         <div class="container">
-          <div class="row top">
-            <div class="col-xs-12">
-              <h2>ABOUT</h2>
-              <div>LINE STAR LINE</div>
-
-            </div>
-
+          <h2>ABOUT</h2>
+          <div class"star_decoration">
+            <div class="line l-white"></div>
+            <div class="star">&#9733;</div>
+            <div class="line l-white"></div>
           </div>
-          <div class="row middle">
-            <div class="col-xs-12 col-md-6">
+          <div class="row">
+            <div class="col-xs-offset-2 col-xs-8 col-md-offset-2 col-md-4">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
             </div>
-            <div class="col-xs-12 col-md-6">
+            <div class="col-xs-offset-2 col-xs-8 col-md-offset-0 col-md-4">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
             </div>
           </div>
-          <div class="row bottom">
-            <div class="button">
-              FREE DOWNLOAD
-            </div>
-
-          </div>
+          <button type="button" class="my-download-button btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-save" aria-hidden="true"></span> Download
+          </button>
 
 
         </div>
       </section>
-      <section class="contact">
+    <!-- Contact section -->
+      <section id="contact">
         <div class="container">
           <div class="row title">
             <div class="col-xs-12">
