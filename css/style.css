@@ -38,6 +38,7 @@ nav li{
 
 nav li:hover{
   color: #1abc9c;
+  cursor: pointer;
 }
 
 .logo-top{
@@ -101,6 +102,7 @@ nav li:hover{
 }
 
 
+
 /* ABOUT */
 
 #about{
@@ -152,20 +154,73 @@ input, textarea{
   margin-bottom: 50px;
 }
 
+.my-send-button:hover{
+  background-color: #16947d;
+  color: white;
+}
+
+
 /* FOOTER */
 
 footer{
   background-color: #3a546d;
-  height: 340px;
   color: white;
   text-align: center;
 }
+
+.social{
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.social:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+footer h3{
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+footer p{
+  font-size: 1.8rem;
+}
+
+footer a{
+  color: #1abc9c;
+}
+
+.copyright{
+  height: 70px;
+  line-height: 70px;
+  background-color: #1a252f;
+  margin-top: 50px;
+
+}
+
+.copyright p{
+  font-size: 1.5rem;
+}
+
+
+
 
 
 @media screen and (max-width: 768px) {
 
   .logo-top{
     font-size: 2.3rem;
+  }
+
+  footer [class*="col-"]{
+    margin-bottom: 30px;
   }
 }
 
