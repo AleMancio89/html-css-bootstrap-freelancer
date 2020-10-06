@@ -2,6 +2,10 @@
   border: 1px solid black;
 }
 
+h2{
+  font-size: 40px;
+}
+
 nav [class*="col-"]{
   height: 90px;
 }
@@ -53,7 +57,7 @@ nav li:hover{
 
 .line{
   height: 5px;
-  width: 8vw;
+  width: 100px;
   margin: 0 15px;
   border-radius: 3px;
   display: inline-block;
@@ -69,10 +73,6 @@ nav li:hover{
   vertical-align: middle;
 }
 
-.star_decoration .white{
-
-}
-
 .jumbotron > div{
   margin-top: 24px;
   margin-bottom: 24px;
@@ -85,10 +85,6 @@ nav li:hover{
 #portfolio{
   text-align: center;
   margin: 50px auto;
-}
-
-#portfolio h2{
-  font-size: 40px;
 }
 
 .l-black{
@@ -127,13 +123,33 @@ nav li:hover{
   margin: 50px auto;
 }
 
-/* DA QUI IN POI DA RIVEDERE */
-
 /* CONTACT */
 
-#contact{
-  height: 680px;
+#contact h2, #star_dec_align{
   text-align: center;
+}
+
+#contact h2{
+  margin-top: 50px;
+}
+
+form{
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input, textarea{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+
+.my-send-button{
+  background-color: #1abc9c;
+  color: white;
+  margin-bottom: 50px;
 }
 
 /* FOOTER */
@@ -149,8 +165,7 @@ footer{
 @media screen and (max-width: 768px) {
 
   .logo-top{
-    line-height: 90px;
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 }
 
